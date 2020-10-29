@@ -1,0 +1,24 @@
+ p { /* l'appel du selecteur (nom de la, balise, le nom d'une classe....*/
+    /*ici je met le code css*/
+    /*la forme d'une propriété*/
+   /* nom_propriete:valeur_propriete;*/
+    /* un exemple */
+    color:green;
+}
+h1{
+    color: hotpink; /*propriete color permet de changer la couleur du texte*/
+    background-color:greenyellow ;/*propriete background-color permet de changer la couleur de l'arriere plan */
+    text-align: center; /*text-align prermet d'aligner le texte*/
+    font-family:Arial, Helvetica, sans-serif ; /* permet de modifier la police */
+    font-size: 60px; /* permet de modifier la taille du texte*/
+}
+.first_p{ /* l'appel de la classe se fait en ajoutant un point au début*/
+color: hotpink;
+font-size: 15px;
+text-align: right;
+}
+
+.second_p{
+    font-size: 50px;
+    text-align: center  ;
+}

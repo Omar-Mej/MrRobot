@@ -1,0 +1,51 @@
+.pink{
+    background-color: pink;
+}
+
+footer{
+    background-color:red ;
+    color: white;
+   margin: 10px 05px 2px 40px; /*margin permet de faire des espacements entre les elements, principalement il contient 4 chiffres qui suit le tour de l'hotloge (top , right, bottom, left*/
+   padding: 50px; /*permet de faire de l'espace a l'interieur de l'élément*/
+   width: 500px;/* permet de definir une taille / largeur d'un bloc cela sera en pixels*/
+   height: 50px; /* permet de definir la hauteur*/
+   text-align: center; /* permet de centrer le texte*/
+}
+#article{
+    background-color: yellowgreen;
+}
+.back{
+    background-color: yellow;
+}
+nav{
+    text-align: right;
+}
+
+a{
+    color: rgb(127, 208, 255);
+    font-family: fantasy;
+    font-size: 26px;
+    text-decoration: none; /*permet de changer la decoration du texte on met none pour supp la deco*/
+    margin-left: 10px;
+}
+
+*{/*la balise etoile permet de tout modifier */
+
+}
+body{
+    margin:0 auto; /*permet de centrer le contenu de la page et il va creer un margin automatique ( gauche et droite et en haut et en bas le margin sera 0*/ 
+    width: 1300px;
+    text-align: center;
+}
+
+.article{
+    background-color: brown;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+.bloc{
+    width: 500px;
+    height: 400px;
+    float: left;/* permet de faire des bloc cote a cote*/
+} 
