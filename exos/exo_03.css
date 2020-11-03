@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+    width: 1300px;
+    margin: 0 auto;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    color: gray;
+}
+img{
+    width: 100%;
+  
+}
+.bloc1,.bloc2,.bloc3,.bloc4,.bloc5,.bloc6{
+    box-shadow: 2px 2px 3px lightslategray;
+    display: inline-block;  
+    width: 350px;
+    height: 380px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
