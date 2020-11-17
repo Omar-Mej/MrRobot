@@ -1,0 +1,34 @@
+
+ul li {
+    list-style-type: none;
+    font-size: 1.5em; /*1em=16px*/
+    border: 1px solid #ccc;
+    padding: 1em;
+}
+.right{
+    display: flex;
+}
+.conteneur{
+    display: flex;
+    margin-top: 100px;
+}
+.right ul li:first-child{ /* il va selectionner le premier enfant de chaque ul qui se trouvent a l'interieyx d'un classe right*/
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+.right ul{/* toutres les ul qui se trouvent a l'interieur de div qui contient une class right*/
+padding: 0;
+text-align: center;
+}
+.left ul{
+    margin-top: 93px;
+}
+ul{
+    width: 16em;
+}
+.right .liste:hover{/*hover permet de declencher des changement sur un element lorsque la souris passe dessus*/
+    transform: scale(1.1);/*trasnform permet d'apporter des modifications sur un element, soit rotation avec rotate , soit chamghement de taille avec scale*/
+    transition: ease-in-out 1s;/* transition permet de gerer la duree de l'animation et le type d'animation*/
+    background: linear-gradient(#d5d5d5,#8a8a8a);/*creer un arriere plan degradé*/
+}

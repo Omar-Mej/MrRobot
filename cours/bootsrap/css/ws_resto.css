@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+div,body{/*pour initialiser toutes les balises sur tout les navigateurs*/
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+.lign1{
+    height: 100px;
+    background:linear-gradient(#555,#000) ;
+    
+}
+section img{
+    width: 100%;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.blocA {
+    display: flex;
+}
+.texte{
+    text-align: center;
+    padding: 25px;
+    background-color: white;
+}
+.blocA p {
+    color: grey;
+}
+.texte span{
+    color: orange;
+}
+footer{
+    height: 100px;
+    background:linear-gradient(#555,#000) ;
+    position: relative;
+    bottom: 50px;
+   
+}
+main{
+    position: relative;
+    z-index: 2;
+}
+nav a:hover{
+    color: orange;
+}
+.blocA img:hover{
+    transform: scale(1.3);
+}
+.blocA img{
+    transition: 0.5s ease-in;
+
+}
